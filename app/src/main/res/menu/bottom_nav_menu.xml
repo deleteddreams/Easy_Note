@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/app_bar_calender"
+        android:icon="@drawable/ic_iconly_light_calendar"
+        app:showAsAction="always"
+        android:title="TODO" />
+
+    <item
+        android:id="@+id/app_bar_notes"
+        android:icon="@drawable/ic_iconly_light_document"
+        app:showAsAction="always"
+        android:title="TODO" />
+
+    <item
+        android:id="@+id/invisible"
+        app:showAsAction="never"
+        android:title="TODO"
+        />
+
+    <item
+        android:id="@+id/app_bar_fav"
+        android:icon="@drawable/ic_iconly_light_heart"
+        app:showAsAction="always"
+        android:title="TODO" />
+
+    <item
+        android:id="@+id/app_bar_settings"
+        android:icon="@drawable/ic_iconly_light_setting"
+        app:showAsAction="always"
+        android:title="TODO" />
+</menu>

@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="WelcomeText">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="NameText">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTextRed">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTextBlack">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="CalendarMonthText">
+        <item name="fontPath">fonts/noto_sans_bold</item>
+        <item name="android:textSize">@dimen/calendar_month_font</item>
+        <item name="android:textColor">@color/calendar_month_font</item>
+    </style>
+
+    <style name="CalendarDayOfTheWeekText">
+        <item name="fontPath">fonts/noto_sans_bold</item>
+        <item name="android:textSize">@dimen/calendar_day_of_week_font</item>
+        <item name="android:textColor">@color/calendar_weekly_day_of_the_month_font</item>
+    </style>
+
+    <style name="CalendarDayOfTheMonthText">
+        <item name="fontPath">fonts/noto_sans_bold</item>
+        <item name="android:textSize">@dimen/calendar_day_of_the_month_font</item>
+        <item name="android:textColor">@color/calendar_day_of_the_month_font</item>
+    </style>
+</resources>
