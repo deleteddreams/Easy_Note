@@ -29,11 +29,6 @@ import io.github.inflationx.calligraphy3.CalligraphyConfig;
 import io.github.inflationx.calligraphy3.CalligraphyInterceptor;
 import io.github.inflationx.viewpump.ViewPump;
 
-/**
- * The roboto calendar view
- *
- * @author Marco Hernaiz Cao
- */
 public class CalendarView extends LinearLayout {
 
     private static final String DAY_OF_THE_WEEK_TEXT = "dayOfTheWeekText";
